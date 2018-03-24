@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<p th:text="'SR(A):' + ${carro.nombre}" />
+	<p th:text="'El vehiculo de marca:' + ${carro.vehiculo}" />
+	<p th:text="'Puede consumir en ' + ${carro.recorrido} + 'KM ' + 'un promedio de ' + ${carro.consumo} + ' galones.' "  />
+	<p th:text="'SR(A):' + ${carro.nombre}" />
+
+</body>
+</html>
